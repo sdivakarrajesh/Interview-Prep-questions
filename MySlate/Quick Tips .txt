@@ -1,0 +1,10 @@
+For dates and time convert them to lower units to solve them easily and avoid clash
+
+Remember Sieve of Eratosthenes
+
+For checking prime or not just check upto sqrt of that number
+
+Use Two friends algoithm
+
+Use XOR to remove even Counted duplicates
+

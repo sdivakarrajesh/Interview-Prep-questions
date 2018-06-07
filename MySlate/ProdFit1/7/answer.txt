@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int num,odd=0,even=0;
+    scanf("%d",&num);
+    while(num){
+        if((num%10)&1){//when &1 with the digit has a value -> odd
+            odd++;
+        }
+        else{even++;}
+        num = num/10;
+    }
+    printf("%d,%d",odd,even);
+    return 0;
+}
