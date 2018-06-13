@@ -8,3 +8,11 @@ Use Two friends algoithm
 
 Use XOR to remove even Counted duplicates
 
+ord for getting ascii in python
+
+chr for getting char equivalent for integers in python
+
+in C preincrement *ptr increases the value at the address by 1
+
+in c postincrement *ptr steps the address x bytes (4 for int, 1 for char etc) 
+
