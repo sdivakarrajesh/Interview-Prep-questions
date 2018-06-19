@@ -18,3 +18,4 @@ int main()
     }
     return 0;
 }
+// This program is just for printing -> to segregate use two friends algorithm

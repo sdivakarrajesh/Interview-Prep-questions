@@ -20,8 +20,8 @@ int main()
     firstDigit = rev%10;
     if(count%2==0){
         while(rev){
-        ans = (ans*100) + (rev%100);
-        rev= rev/100;
+			ans = (ans*100) + (rev%100);
+			rev = rev/100;
         }
 
     }
@@ -34,7 +34,6 @@ int main()
 
     }
     if(secondDigit==0 && count%2!=0){printf("%d",rev);}
-    else if(secondDigit==0){printf("%d",ans);}
     else printf("%d",ans);
     if(trailingZeros)
     {

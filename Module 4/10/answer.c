@@ -6,7 +6,7 @@ int temp=*n1;
 return;
 }
 int main() {
-    int n,max=0,secondMax=0,test;
+    int n,max=0,secondMax=0,test;//assuming that the numbers are positive -> if neg included initialize them to INT_MIN
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         scanf("%d",&test);

@@ -17,4 +17,5 @@ int main()
     }
 
     return 0;
-}
+}//This program runs for O(no.of digits * 9 times)
+//if arrays allowed-> can be done in O(no.of.Digits)
