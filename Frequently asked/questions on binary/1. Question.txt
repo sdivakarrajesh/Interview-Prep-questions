@@ -1,0 +1,13 @@
+Consider that there are 1000 bottles of milk. One bottle contains poison. Your task is to find which bottle contains poison.
+You can use rats to find the same. The result of whether the bottle contains poison or not can be tested by feeding the bottle's content to the rat and the result of it can be seen only after 1 hour.
+You should report which bottle contains poison in 1 hour. Find the minimum number of rats that can be used to find the same.
+
+
+
+Tenative solution:
+> Denote each bottle as the binary representation starting from 0
+> Assign each rat as one column of bits and feed the bottle to the rat if the bit is 1 or else don't
+> Based on the combination in which the rats die, the conclusion is arrived on which bottle contains poison
+> For more detailed explanation visit this site: 
+
+https://www.quora.com/You-have-1000-wine-bottles-one-of-which-is-poisoned-You-want-to-determine-which-bottle-is-poisoned-by-feeding-the-wine-to-the-rats-The-poisoned-wine-takes-one-hour-to-work-How-many-rats-are-necessary-to-find-the-poisoned-bottle-in-one-hour
