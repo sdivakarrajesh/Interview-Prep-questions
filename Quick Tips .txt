@@ -33,3 +33,10 @@ combinations from collection module
 eval() -> for evaluating a mathematical expression
 zip()  ->ex: zip([1,2,3,4,5,6],'Hacker')  ->[(1, 'H'), (2, 'a'), (3, 'c'), (4, 'k'), (5, 'e'), (6, 'r')]
 *iterableVar -> unzips and gives each element
+
+
+**-----------------------**
+| Useful elements in C++ |
+**-----------------------**
+
+variable sized arrays - uses double pointers (Refer : https://www.hackerrank.com/challenges/variable-sized-arrays/problem)

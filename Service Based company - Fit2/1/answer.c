@@ -18,7 +18,7 @@ for(int index=0;index<7;index++){
 arr[7] = (temp==0)?0:1;
 }
 for(int i=0;i<8;i++)printf("%d ",arr[i]);
-return 0;
+
 }
 int main() {
     int n,arr[8];
