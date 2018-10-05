@@ -40,3 +40,11 @@ zip()  ->ex: zip([1,2,3,4,5,6],'Hacker')  ->[(1, 'H'), (2, 'a'), (3, 'c'), (4, '
 **-----------------------**
 
 variable sized arrays - uses double pointers (Refer : https://www.hackerrank.com/challenges/variable-sized-arrays/problem)
+
+preprocessor directives - http://www.cplusplus.com/doc/tutorial/preprocessor/
+------------------------------------------------------------------------------
+
+#define str(s) #s -> here the #s would return the string literal of the argument passed
+#define glue(a,b) a##b -> here a##b would concatenate the args without space and returns it
+
+In most programming problems "#define INF 0x3f3f3f3f" is used to define infinity -> use INF 
