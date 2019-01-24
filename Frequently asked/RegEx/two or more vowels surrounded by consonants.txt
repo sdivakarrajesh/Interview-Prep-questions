@@ -1,0 +1,11 @@
+import re
+str = input()
+vowels = "aeiouAEIOU"
+consonants = "BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz"
+pattern = r'(?=[{0}]([{1}]{{2,}})[{0}])'.format(consonants,vowels)
+# or r'(%s)(%s{2,})(?=%s)' % (consonants, vowels, consonants)
+exists = re.findall(pattern,str)
+if exists:
+    print(*exists,sep="\n")
+else:
+    print(-1)
