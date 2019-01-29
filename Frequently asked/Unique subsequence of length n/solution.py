@@ -18,3 +18,5 @@ def solution(A):
             count_k_group_end_with_num_dict[A[n-1]] = (count_k_group_end_with_num_dict.get(A[n-1], 0) + w)%MODULO
     return dp[3][N]
 	
+
+print(solution([2,2,1,2,2]))

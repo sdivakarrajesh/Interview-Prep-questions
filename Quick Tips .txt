@@ -48,3 +48,14 @@ preprocessor directives - http://www.cplusplus.com/doc/tutorial/preprocessor/
 #define glue(a,b) a##b -> here a##b would concatenate the args without space and returns it
 
 In most programming problems "#define INF 0x3f3f3f3f" is used to define infinity -> use INF 
+
+**-------------------------**
+| Concepts - Design pattern |
+**-------------------------**
+
+Factory method - https://www.geeksforgeeks.org/design-patterns-set-2-factory-method/
+
+Builder pattern - https://www.geeksforgeeks.org/builder-design-pattern/
+
+Abstract Factory - https://www.geeksforgeeks.org/abstract-factory-pattern/
+
