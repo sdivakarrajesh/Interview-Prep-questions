@@ -1,0 +1,2 @@
+You are given two strings.
+Your task is to remove minimum number of characters from each of the strings so that at the end of removal they become anagrams of each other
