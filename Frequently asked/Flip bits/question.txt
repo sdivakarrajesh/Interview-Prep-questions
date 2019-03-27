@@ -1,0 +1,5 @@
+You will be given a list of 32 bit unsigned integers. Flip all the bits 0 -> 1 and 1 -> 0
+and print the result as an unsigned integer.
+For example, your decimal input n - 9 base 10 = 1001 base 2
+00000000000000000000000000001001 = 9 in base 2 - before flipping
+11111111111111111111111111110110 = 4294967286 base 10 - after flipping
