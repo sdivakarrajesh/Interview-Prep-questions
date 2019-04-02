@@ -5,3 +5,4 @@ if int(dd)<32 and int(dd)>0 and int(mm)<13 and int(mm)>0 and int(yy)>1970:
     print(day)
 else:
     print("Invalid Date")
+#handle day count mismatch for months with 30 days and for feb

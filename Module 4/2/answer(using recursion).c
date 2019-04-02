@@ -19,7 +19,8 @@ int dec2Hex(int num){
 
 }
 int main(){
-    int num=235;
+    int num;
+    scanf("%d",&num);
     dec2Hex(num);
     printf("%s",str);
     return 0;

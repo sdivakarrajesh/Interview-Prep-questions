@@ -15,3 +15,4 @@ int main()
     else printf("%d",count);
     return 0;
 }
+//just the different prime numbers that are factor of n

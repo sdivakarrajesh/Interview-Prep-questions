@@ -1,14 +1,14 @@
 #include<stdio.h>
 #include<stdbool.h>
 bool isAlphabet(char c){
-return ((c>='a' && c<='z')||(c>='A' && c<='Z'));
+    return ((c>='a' && c<='z')||(c>='A' && c<='Z'));
 }
 
 void swap(char *c1,char *c2){
-char temp=*c1;
-*c1=*c2;
-*c2=temp;
-return;
+    char temp=*c1;
+    *c1=*c2;
+    *c2=temp;
+    return;
 }
 
 void reverse(char *left,char *right){

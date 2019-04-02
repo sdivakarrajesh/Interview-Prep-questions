@@ -1,16 +1,26 @@
 #include<stdio.h>
-int main()
-{
-int n;
-scanf("%d",&n);
-int nums[2*n];
-for(int i =0;i<(2*n);i++)
-{
-    scanf("%d",&nums[i]);
+char str[20]="";
+int position =0;
+int dec2Hex(int num){
+    if(num==0){
+        return 0;
+    }
+    else{
+        dec2Hex(num/16);
+    }
+    if(num%16<10){
+        str[position] = num%16 + 48;
+        position++;
+    }
+    else{
+        str[position] = num%16 + 55;
+        position++;
+    }
+
 }
-for(int i =0;i<(2*n);i=i+2)
-{
-    nums[i]>nums[i+1]? printf("%d > %d\n",nums[i],nums[i+1]):printf("%d > %d\n",nums[i+1],nums[i]);
-}
+int main(){
+    int num=235;
+    dec2Hex(num);
+    printf("%s",str);
     return 0;
 }

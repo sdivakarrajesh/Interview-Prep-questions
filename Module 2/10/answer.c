@@ -1,20 +1,16 @@
 #include<stdio.h>
-int main() 
-{
+int main() {
     int n;
     scanf("%d",&n);
-    int nums[n];
+    int num;
     for(int i=0;i<n;i++)
     {
-        scanf("%d",&nums[i]);
-    }
-    for(int i=0;i<n;i++)
-    {
+        scanf("%d",&num);
         int rev=0;
-        while(nums[i])
+        while(num!=0)
         {
-            rev = (rev*10)+nums[i]%10;
-            nums[i] =   nums[i]/10;
+            rev = (rev*10)+num%10;
+            num = num/10;
         }
         printf("%d\n",rev);
     }

@@ -19,4 +19,6 @@ int seconds1,seconds2,totalSeconds,t1_hour,t2_hour,t3_hour,t1_minute,t2_minute,t
 return 0;
 }
 
+// be careful as int may overflow
+
 	

@@ -1,19 +1,15 @@
 #include<stdio.h>
-int main()
-{
-int n,min;
-scanf("%d",&n);
-int nums[3*n];
-for(int i =0;i<(3*n);i++)
-{
-    scanf("%d",&nums[i]);
-}
-for(int i =0;i<(3*n);i=i+3)
-{
-    min=0;
-    min = nums[i]<nums[i+1]? nums[i]:nums[i+1];
-    min = min<nums[i+2]? min:nums[i+2];
-    printf("Smallest of %d, %d, %d is %d\n",nums[i],nums[i+1],nums[i+2],min);
-}
+int main(){
+    int n,min;
+    scanf("%d",&n);
+    int num1,num2,num3;
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d %d %d",&num1, &num2, &num3);
+        min=0;
+        min = num1<num2? num1:num2;
+        min = min<num3? min:num3;
+        printf("Smallest of %d, %d, %d is %d\n",num1,num2,num3,min);
+    }
     return 0;
 }

@@ -3,15 +3,12 @@ int main() {
 
     int n;
     scanf("%d",&n);
-    long long int nums[n];
+    long long int num;
     for(int i=0;i<n;i++)
     {
-        scanf("%lld",&nums[i]);
-    }
-    for(int i=0;i<n;i++)
-    {
-        (nums[i]&1 && printf("ODD\n")) || printf("EVEN\n");
-		//(num[i]&1)?printf("ODD\n"):printf("EVEN\n");
+        scanf("%lld",&num);
+        (num&1 && printf("ODD\n")) || printf("EVEN\n");
+		//(num&1)?printf("ODD\n"):printf("EVEN\n");
     }
     return 0;
 }

@@ -1,19 +1,16 @@
 #include<stdio.h>
 int main()
 {
-int n,max;
-scanf("%d",&n);
-int nums[3*n];
-for(int i =0;i<(3*n);i++)
-{
-    scanf("%d",&nums[i]);
-}
-for(int i =0;i<(3*n);i=i+3)
-{
-    max=0;
-    max = nums[i]>nums[i+1]? nums[i]:nums[i+1];
-    max = max>nums[i+2]? max:nums[i+2];
-    printf("Largest of %d, %d, %d is %d\n",nums[i],nums[i+1],nums[i+2],max);
-}
+    int n,max;
+    scanf("%d",&n);
+    int num1,num2,num3;
+    for(int i =0;i<n;i++)
+    {
+        scanf("%d %d %d",&num1, &num2, &num3);
+        max=0;
+        max = num1>num2? num1:num2;
+        max = max>num3? max:num3;
+        printf("Largest of %d, %d, %d is %d\n",num1,num2,num3,max);
+    }
     return 0;
 }

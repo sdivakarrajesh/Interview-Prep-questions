@@ -1,16 +1,16 @@
 #include<stdio.h>
 void swap(char *c1,char *c2){
-char temp = *c1;
-*c1 = *c2;
-*c2 = temp;
-return;
+    char temp = *c1;
+    *c1 = *c2;
+    *c2 = temp;
+    return;
 }
 void reverse(char *begin,char *end){
-while(begin<end){
-    swap(begin,end);
-    begin++;
-    end--;
-}
+    while(begin<end){
+        swap(begin,end);
+        begin++;
+        end--;
+    }
 return;
 }
 void reverseWords(char *str){

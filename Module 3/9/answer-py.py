@@ -25,5 +25,3 @@ if start<=2:
 for i in range(start,end+1):
     if isPrime(int(i)) and isCircular(str(i)):
         print(i,end=" ")
-    else:
-        continue

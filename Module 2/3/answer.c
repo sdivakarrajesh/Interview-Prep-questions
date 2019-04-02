@@ -2,18 +2,11 @@
 int main() {
     int n;
     scanf("%d",&n);
-    int nums[n];
-    for(int i=0;i<n;i++)
-    {scanf("%d",&nums[i]);}
+    int num;
     for(int i=0;i<n;i++)
     {
-        if((nums[i]&(nums[i]-1))==0)
-           {
-               printf("YES\n");
-           }
-        else{
-            printf("NO\n");
-        }
+        scanf("%d",&num);
+        ((num & num - 1) == 0) ? printf("YES\n") : printf("NO\n"); //check in binary -> bitwise AND
     }
     return 0;
 }
