@@ -1,0 +1,9 @@
+Professor McGonagall is organizing the Yule ball party.
+There are fewer number of boys than the girls.
+The boys must be paired with girls such that there is a minimum difference in the heights.
+Others who don't have a pair can be eliminated. Find the minimum difference given the heights of the boys and girls
+
+First line contains boys and girls count
+Second line contains the heights of the boys 
+third line contains the heights of the girls
+Print the minimum difference in height that can be made while pairing them optimally
